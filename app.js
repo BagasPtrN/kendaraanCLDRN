@@ -9,7 +9,7 @@ app.use(express.json());
 app.use("/mobil", mobilRouter);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to mobil Service! 😁");
+  res.send("Welcome to mobil-service! 😁");
 });
 
 app.listen(port, () => {
